@@ -21,4 +21,30 @@
     />
     <link rel="stylesheet" href="./css/style.css">
     <title>User Input, with a JS</title>
-    
+  </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">
+          <span class = "mdl-layout-title">Basic Math, with JS</span>
+        </div>
+      </header>
+      <main class = "mdl-layout__content">
+        <h3>Please enter the following:</h3>
+        <!-- Simple Textfield -->
+        <form action="#">
+         <div class="mdl-textfield mdl-js-textfield">
+           <input class="mdl-textfield__input" type="text" id="sample1">
+           <label class="mdl-textfield__label" for="sample1">Street Name...</label>
+         </div>
+        </form>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <label class="mdl-textfield__label" for="sample2">Street Number...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
