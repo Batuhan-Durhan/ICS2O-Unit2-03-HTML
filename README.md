@@ -1,4 +1,4 @@
-# ICS2O-Unit2-04-HTML
+# ICS2O-Unit2-03-HTML
 
 [![GitHub's Super Linter](https://github.com/Batuhan-Durhan/ICS2O-Unit2-03-HTML/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Batuhan-Durhan/ICS2O-Unit2-03-HTML/actions)
 
